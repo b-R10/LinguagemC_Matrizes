@@ -16,7 +16,7 @@ int main()
     {
         for(int j=0; j<n; j++)
         {
-            printf("A[%d][%d] = ", i+1, j+1);
+            printf("A[%d][%d] = ", i + 1, j + 1);
             scanf("%d", &A[i][j]);
         }
     }
@@ -37,7 +37,7 @@ int main()
         printf("\n");   // vai para próxima linha da matriz
         for(int j=0; j<n; j++)
         {
-            printf("\t%d", A[i][j]+B[i][j]);       // \t separa os termos da matriz
+            printf("\t%d", A[i][j] + B[i][j]);       // \t separa os termos da matriz
         }
     }
     return 0;
